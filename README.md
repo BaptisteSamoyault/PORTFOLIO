@@ -37,3 +37,9 @@ Link: https://github.com/barfran/CardGame/tree/main/Game
 Description: We created a AR Card game, using Unity and Vuforia to store our assets. When a card is detected by the camera of a phone, on the top of it, a character will appear and if 2 cards are close to each other, a fight will begin. Characters are animated. 
 ![image](Images/ArcaneRivals.png)
 Link to video: https://drive.google.com/drive/folders/1Ftgk3bKR0BSK4-ln-gZCTboH6ld_-77D?usp=drive_link
+
+### Maze-Project (object programming) in Java:
+Team of 2 peoples.
+Link:
+Description: We created a 
+### Mine-Sweeper (object programming) in Java:
