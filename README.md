@@ -40,6 +40,25 @@ Link to video: https://drive.google.com/drive/folders/1Ftgk3bKR0BSK4-ln-gZCTboH6
 
 ### Maze-Project (object programming) in Java:
 Team of 2 peoples.
-Link:
-Description: We created a 
-### Mine-Sweeper (object programming) in Java:
+Link: https://github.com/BaptisteSamoyault/The-Maze-Project
+Description: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.
+More information here ![report](Reports/HW3-PAC-Maze.pdf)
+How to test it ![try](Reports/Instructions.pdf)
+
+### Sub'n Mines (object programming) in Java:
+Solo project.
+Link: https://github.com/BaptisteSamoyault/sub-n-mines
+Description: This a game inspired by the minesweeper game. The player control a submarine and need to reach a target while avoiding invisble mines. 
+
+### A virtual coach using MARC (a Paris-Saclay appplication):
+Team of 3 peoples.
+Link: ![research-paper](Reports/4-Baptiste-Ilinca-Abel.pdf)
+Description: We created a virtual coach to help people train for sketboarding. We used several studies to make this virtual human.  
+Watch more here -> ![video](images/VH1.mp4)
+
+### Web Project, a Discord Clone in Javascript, CSS:
+Team of 2 peoples
+Link to my part (Frontend): https://github.com/dnguye12/Discord-Frontend
+Link to my coworker part (Backend): https://github.com/dnguye12/Discord-Backend
+Link for the render: https://discord-backend-tlyr.onrender.com/ 
+Description: This project is an attempt to recreate the application Discord and its functionnalities, from creating a server to video calls. 
