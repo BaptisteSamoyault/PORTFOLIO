@@ -36,10 +36,12 @@ Team of 3 peoples.
 Link: https://github.com/barfran/CardGame/tree/main/Game
 Description: We created a AR Card game, using Unity and Vuforia to store our assets. When a card is detected by the camera of a phone, on the top of it, a character will appear and if 2 cards are close to each other, a fight will begin. Characters are animated. 
 ![image](Images/ArcaneRivals.png)
+
 Link to video: https://drive.google.com/drive/folders/1Ftgk3bKR0BSK4-ln-gZCTboH6ld_-77D?usp=drive_link
 
 ### Maze-Project (object programming) in Java:
 Team of 2 peoples.
+<<<<<<< HEAD
 Link: https://github.com/BaptisteSamoyault/The-Maze-Project
 Description: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.
 More information here ![report](Reports/HW3-PAC-Maze.pdf)
@@ -62,3 +64,8 @@ Link to my part (Frontend): https://github.com/dnguye12/Discord-Frontend
 Link to my coworker part (Backend): https://github.com/dnguye12/Discord-Backend
 Link for the render: https://discord-backend-tlyr.onrender.com/ 
 Description: This project is an attempt to recreate the application Discord and its functionnalities, from creating a server to video calls. 
+=======
+Link:
+Description: We created a 
+### Mine-Sweeper (object programming) in Java:
+>>>>>>> c50a7aef1b570e8e5dde6c6e473969a13d120270
