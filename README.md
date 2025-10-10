@@ -74,9 +74,9 @@ Photo: ![image](Images/FrenchLantern.avif)
 #### Echo Guide:
 Team of 4 peoples
 Description: We designed a tool to help people navigating. A tool indicating how to reach your destination, warning you about problems ahead on the way. 
-Presentation: [presentation](Reports/EchoGuide.pdf)
+Presentation: ![presentation](Reports/EchoGuide.pdf)
 Video: https://youtu.be/TQCjjoRbKsk
-Poster: [images](Images/EchoGuide%20Poster.jpg)
+Poster: ![images](Images/EchoGuide%20Poster.jpg)
 
 #### Designing a Template system for presentation, "Better Templates":
 Team of 4 peoples
