@@ -71,6 +71,13 @@ Link: ![report](Reports/The%20art%20of%20fabricating%20tangible%20surfaces.pdf)
 Description: I had to make a 1m² object using 3D printed objects. I decided to build my lantern using blue, white, and red octagonal surfaces. Then, using connectors, I was able to attach them together.
 Photo: ![image](Images/FrenchLantern.avif)
 
+#### Echo Guide:
+Team of 4 peoples
+Description: We designed a tool to help people navigating. A tool indicating how to reach your destination, warning you about problems ahead on the way. 
+Presentation: [presentation](Reports/EchoGuide.pdf)
+Video: https://youtu.be/TQCjjoRbKsk
+Poster: [images](Images/EchoGuide%20Poster.jpg)
+
 #### Designing a Template system for presentation, "Better Templates":
 Team of 4 peoples
 Description: As students we encountered difficulties to make good visuals for our presentation and to prepare them. So we wanted to create a better way to create presentation. After conducting interviews we came up with various ideas on how we can ease the process of creating a presentation, like personalized templates, AI help to prepare the talking parts,...
