@@ -15,7 +15,7 @@ How to reach me:
 
 #### 🥠 Maze-Project (object programming) in Java:
 **Team of 2 peoples.**  
-**Link**: https://github.com/BaptisteSamoyault/The-Maze-Project
+**Link**: https://github.com/BaptisteSamoyault/The-Maze-Project  
 **Description**: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.  
 More information here ![Report](Reports/HW3-PAC-Maze.pdf)  
 How to test it ![Try](Reports/Instructions.pdf)
@@ -87,7 +87,7 @@ Watch more here -> ![video](https://youtu.be/slN8KFjPqjI)
 #### ⌚🗺️ Echo Guide:
 **Team of 4 peoples**  
 **Description**: We designed a tool to help people navigating. A tool indicating how to reach your destination, warning you about problems ahead on the way.  
-**Presentation**: ![presentation](Reports/EchoGuide.pdf)
+**Presentation**: ![presentation](Reports/EchoGuide.pdf)  
 **Video**: https://youtu.be/TQCjjoRbKsk  
 **Poster**: ![images](Images/EchoGuide%20Poster.jpg)  
 
