@@ -26,7 +26,7 @@ How to test it ![Try](Reports/Instructions.pdf)
 **Description**: This a game inspired by the minesweeper game. The player control a submarine and need to reach a target while avoiding invisble mines. 
 
 
-### Web Devellopement project
+### Web Developement project
 
 #### 💻 Web Project, a Discord Clone in Javascript, CSS:
 **Team of 2 peoples**  
