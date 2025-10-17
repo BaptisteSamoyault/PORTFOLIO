@@ -2,6 +2,13 @@
 Hi ! My name is Baptiste SAMOYAULT and welcome on my Portfolio. 
 I am in M2 Human-Computer-Interaction. I have a passion for design and coding. 
 
+How to reach me:  
+Phone number: 0652405626  
+email: bsamoyault@gmail.com  
+
+## My CV:
+![CV](CV/Eng%20-%20CV%20-%20Baptiste%20Samoyault.pdf)
+
 ## Master Human-Computer-Interaction:
 
 ### Object Programming project
