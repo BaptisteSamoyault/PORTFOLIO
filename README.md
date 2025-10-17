@@ -81,7 +81,7 @@ Watch more here -> ![video](https://youtu.be/slN8KFjPqjI)
 **Solo project**  
 **Link**: ![report](Reports/The%20art%20of%20fabricating%20tangible%20surfaces.pdf)  
 **Description**: I had to make a 1m² object using 3D printed objects. I decided to build my lantern using blue, white, and red octagonal surfaces. Then, using connectors, I was able to attach them together.  
-**Photo**: ![image](Images/FrenchLantern.avif)
+**Photo**:  ![image](Images/FrenchLantern.avif)
 
 #### ⌚🗺️ Echo Guide:
 **Team of 4 peoples**  
@@ -111,7 +111,7 @@ Link : https://github.com/Julien-LG/Projet-Ile-Interdite
 Description: We implemented our own version of the game named "Forbidden Island" using java. 
 
 #### 🫧 Wotah (object programming) in Java:
-**Team of 4 peoples**.
+**Team of 4 peoples**.  
 **Link**: https://github.com/Julien-LG/Wotah  
 **Description**: We developped a game name "Wotah" by taking inspiration from "StarCraft" and "Tropico" using java.
 **Slides presentation** (in French): ![slides](Reports/Wotah_Java_Game.pdf)
