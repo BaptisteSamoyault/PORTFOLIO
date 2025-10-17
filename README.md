@@ -9,24 +9,24 @@ Here you can see everything I have done so far, every projects I have worked on.
 #### Maze-Project (object programming) in Java:
 **Team of 2 peoples.**  
 **Link**: https://github.com/BaptisteSamoyault/The-Maze-Project
-**Description**: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.
-**->**More information here ![Report](Reports/HW3-PAC-Maze.pdf)
+**Description**: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.  
+**->**More information here ![Report](Reports/HW3-PAC-Maze.pdf)  
 How to test it **![Try]**(Reports/Instructions.pdf)
 
 #### Sub'n Mines (object programming) in Java:
-Solo project.
-Link: https://github.com/BaptisteSamoyault/sub-n-mines
-Description: This a game inspired by the minesweeper game. The player control a submarine and need to reach a target while avoiding invisble mines. 
+**Solo project**.  
+**Link**: https://github.com/BaptisteSamoyault/sub-n-mines  
+**Description**: This a game inspired by the minesweeper game. The player control a submarine and need to reach a target while avoiding invisble mines. 
 
 
 ### Web Devellopement project
 
 #### Web Project, a Discord Clone in Javascript, CSS:
-Team of 2 peoples
-Link to my part (Frontend): https://github.com/dnguye12/Discord-Frontend
-Link to my coworker part (Backend): https://github.com/dnguye12/Discord-Backend
-Link for the render: https://discord-backend-tlyr.onrender.com/ 
-Description: This project is an attempt to recreate the application Discord and its functionnalities, from creating a server to video calls. 
+**Team of 2 peoples**  
+**Link** to my part (Frontend): https://github.com/dnguye12/Discord-Frontend  
+**Link** to my coworker part (Backend): https://github.com/dnguye12/Discord-Backend  
+**Link for the render**: https://discord-backend-tlyr.onrender.com/  
+**Description**: This project is an attempt to recreate the application Discord and its functionnalities, from creating a server to video calls.  
 
 #### Binge Buddies (Web Programming) in Javascript, CSS:
 Team of 5 peoples
