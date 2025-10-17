@@ -7,7 +7,7 @@ Here you can see everything I have done so far, every projects I have worked on.
 ### Object Programming project
 
 #### Maze-Project (object programming) in Java:
-Team of 2 peoples.
+Team of 2 peoples./n
 Link: https://github.com/BaptisteSamoyault/The-Maze-Project
 Description: We created a game where a player needs to escape a maze, the player is tailed by an AI ennemy.
 More information here ![report](Reports/HW3-PAC-Maze.pdf)
