@@ -1,158 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <title>PORTFOLIO — Baptiste SAMOYAULT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PORTFOLIO — Baptiste SAMOYAULT</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #fdf6ec; /* start soft cream */
+      color: #0f1724;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+      transition: background-color 0.5s linear, color 0.5s linear;
+    }
+    h1, h2, h3, h4, h5 {
+      color: #0b3b91;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      background: rgba(255,255,255,0.08);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #e2e8f0;
+    }
+  </style>
 </head>
 <body>
- <h1>PORTFOLIO</h1>
- <p>Hi! My name is <strong>Baptiste SAMOYAULT</strong> and welcome on my Portfolio.<br>
- I am in M2 Human-Computer-Interaction at Université Paris-Saclay. I have a passion for design and coding.</p>
- <p>How to reach me:<br>
- 📞 Phone number: 0652405626<br>
- 📧 Email: <a href="mailto:bsamoyault@gmail.com">bsamoyault@gmail.com</a></p>
- <div>
- <h2>My CV</h2>
- <p>📖 <a href="CV/Eng - CV - Baptiste Samoyault-1.pdf">View my CV (PDF)</a></p>
- </div>
- <div>
- <h2>Master Human-Computer-Interaction</h2>
- <h3>Object Programming Projects</h3>
- <div>
- <div>
- <h4>🥠 Maze-Project (Java)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/BaptisteSamoyault/The-Maze-Project">GitHub Repository</a><br>
- We created a turn based game where a player needs to escape a maze while chased by an AI enemy. Bonus are inside the maze, some can help the player.<br>
- 📄 <a href="Reports/HW3-PAC-Maze.pdf">Report</a> • <a href="Reports/Instructions.pdf">How to test it</a><br>
- <img src="Images/Pac-Maze screen RE.png" alt="Pac-Maze"><br>
- </p>
- </div>
- <div>
- <h4>⚓ Sub'n Mines (Java)</h4>
- <p><strong>Solo project</strong><br>
- 🔗 <a href="https://github.com/BaptisteSamoyault/sub-n-mines">GitHub Repository</a><br>
- A Minesweeper-inspired game where a submarine avoids invisible mines to reach its goal.</p>
- <img src="Images/Sub n mines screen.png" alt="sub-n-mines">
- </div>
- </div>
- <h3>Web Development Projects</h3>
- <div>
- <div>
- <h4>💻 Discord Clone (JavaScript, CSS)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/dnguye12/Discord-Frontend">Frontend</a> • <a href="https://github.com/dnguye12/Discord-Backend">Backend</a> • <a href="https://discord-backend-tlyr.onrender.com/">Render</a><br>
- A recreation of Discord’s features, from servers to video calls.</p><br>
- <img src="Images/WhiteCord.png" alt="Discord">
- </div>
- <div>
- <h4>🎬 Binge Buddies (JavaScript, CSS)</h4>
- <p><strong>Team of 5 people</strong><br>
- A web app for friends to watch movies together remotely.<br>
- 📄 <a href="Reports/TER_BingeBuddies.pdf">Full Paper</a> • <a href="Reports/Binge%20Buddies.pdf">Presentation</a> • 🎥 <a href="https://www.youtube.com/watch?v=EW28VevIyIQ">Video</a></p><br>
- <img src="Images/BingeBuddies Screen.png" alt="BingeBuddies">
- </div>
- </div>
- <h3>Virtual Reality / Augmented Reality Projects</h3>
- <div>
- <div>
- <h4>🏹 Bow Project (Unity, VR, C#)</h4>
- <p><strong>Team of 2 people</strong><br>
- VR experience where users grab a bow and shoot targets using a Vive Cosmos headset.<br>
- 🎥 <a href="https://youtu.be/ZmPPQAu60NA">Video</a> • <a href="Reports/Adv%20Immersive%20-%20Presentation.pdf">Presentation</a></p><br>
- <img src="Images/Bow Project jpg.png" alt="bow">
- </div>
- <div>
- <h4>🥽 Science Fair Project (Unity, VR, C#)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/RabiiAlaouiLamharzi/final-project-unity">GitHub Repository</a><br>
- A VR Science Fair featuring interactive exhibits: Volcano, Lamp, and Magnet.</p><br>
- 🎥 <a href="https://youtu.be/qpmFCL09zIs">Video</a><br>
- <img src="Images/Sciense fair png.png" alt=" Science Fair">
- </div>
- <div>
- <h4>🃏 Arcane Rivals (Unity, Vuforia, AR, C#)</h4>
- <p><strong>Team of 3 people</strong><br>
- 🔗 <a href="https://github.com/barfran/CardGame/tree/main/Game">GitHub Repository</a><br>
- AR Card Game with animated characters appearing when cards are scanned.<br>
- <img src="Images/ArcaneRivals.png" alt="Arcane Rivals"><br>
- 🎥 <a href="https://youtu.be/9nzZ5zxSYwo">Video</a></p>
- </div>
- </div>
- <h3>Design Projects</h3>
- <div>
- <div>
- <h4>🤖 Lil'Bot (Blender, Davinci Resolve)</h4>
- <p><strong>Solo Project</strong><br>
- Simulated AR companion robot created in Blender and tracked in real space.<br>
- 🎥 <a href="https://youtu.be/FxAa9C57NDQ">Video</a> • 📄 <a href="Reports/Lil'Bot Final.pdf">Presentation</a></p><br>
- <img src="Images/Lil'Bot.png"alt="LilBot">
- </div>
- <div>
- <h4>💪 Virtual Coach using MARC</h4>
- <p><strong>Team of 3 people</strong><br>
- We created a virtual Coach for skating. After looking through research paper, we managed to create animations and instructions for users to have a nice coaching sessions.
- We used MARC software, a tool specificaly built to create virtual human.
- 📄 <a href="Reports/4-Baptiste-Ilinca-Abel.pdf">Research Paper</a> • 🎥 <a href="https://youtu.be/slN8KFjPqjI">Video</a></p>
- <img src="Images/MARC3.png" alt="MARC"><br>
- </div>
- <div>
- <h4>🖨️ French Lantern</h4>
- <p><strong>Solo Project</strong><br>
- 📄 <a href="Reports/The%20art%20of%20fabricating%20tangible%20surfaces.pdf">Report</a><br>
- 3D printed lantern made with red, white, and blue octagonal surfaces.<br>
- </div>
- <div>
- <h4>⌚🗺️ Echo Guide</h4>
- <p><strong>Team of 4 people</strong><br>
- Navigation aid tool for safer travel.<br>
- 📄 <a href="Reports/EchoGuide.pdf">Presentation</a> • 🎥 <a href="https://youtu.be/TQCjjoRbKsk">Video</a></p><br>
- <img src="Images/EchoGuide Poster.jpg" alt="EchoGuide">
- </div>
- <div>
- <h4>🎨📝 Better Templates</h4>
- <p><strong>Team of 4 people</strong><br>
- A system to create better presentations with templates and AI assistance.<br>
- 🎥 <a href="https://youtu.be/v7sTQGZMLYQ">Video</a></p><br>
- <img src="Images/BetterTemplates.png" alt="BetterTemplates">
- </div>
- </div>
- </div>
- <div>
- <h2>Bachelor of Computer Science</h2>
- <div>
- <div>
- <h4>🐸 Frogger (Java)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/PierreDerathe/projetFroggerDeratheSamoyault">GitHub Repository</a><br>
- Our version of the classic game Frogger in Java.</p>
- </div>
- <div>
- <h4>🏝️ Forbidden Island (Java)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/Julien-LG/Projet-Ile-Interdite">GitHub Repository</a><br>
- Java implementation of the board game Forbidden Island.</p>
- </div>
- <div>
- <h4>🫧 Wotah (Java)</h4>
- <p><strong>Team of 4 people</strong><br>
- 🔗 <a href="https://github.com/Julien-LG/Wotah">GitHub Repository</a><br>
- A Java game inspired by StarCraft and Tropico.<br>
- 📄 <a href="Reports/Wotah_Java_Game.pdf">Slides (FR)</a></p>
- </div>
- <div>
- <h4>🗓️ Calendar (HTML, CSS, JavaScript)</h4>
- <p><strong>Team of 2 people</strong><br>
- 🔗 <a href="https://github.com/Sebastien-Sch/ProgWebProject2023">GitHub Repository</a><br>
- A university calendar where teachers can add classes and students can view their schedule.</p>
- </div>
- </div>
- </div>
- <footer>
- ✨ Thank you for visiting my portfolio!
- </footer>
-<script>
+  <h1>PORTFOLIO</h1>
+  <p>Hi! My name is <strong>Baptiste SAMOYAULT</strong> and welcome on my Portfolio.<br>
+  I am in M2 Human-Computer-Interaction at Université Paris-Saclay. I have a passion for design and coding.</p>
+
+  <p>How to reach me:<br>
+  📞 Phone number: 0652405626<br>
+  📧 Email: <a href="mailto:bsamoyault@gmail.com">bsamoyault@gmail.com</a></p>
+
+<div class="section">
+    <h2>My CV</h2>
+    <p>📖 <a href="CV/Eng - CV - Baptiste Samoyault-1.pdf">View my CV (PDF)</a></p>
+  </div>
+
+  <div class="section">
+    <h2>Master Human-Computer-Interaction</h2>
+
+    <h3>Object Programming Projects</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>🥠 Maze-Project (Java)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/BaptisteSamoyault/The-Maze-Project">GitHub Repository</a><br>
+        We created a turn based game where a player needs to escape a maze while chased by an AI enemy. Bonus are inside the maze, some can help the player.<br>
+        📄 <a href="Reports/HW3-PAC-Maze.pdf">Report</a> • <a href="Reports/Instructions.pdf">How to test it</a><br>
+        <img src="Images/Pac-Maze screen RE.png" alt="Pac-Maze"><br>
+      </p>
+        
+      </div>
+
+      <div class="card">
+        <h4>⚓ Sub'n Mines (Java)</h4>
+        <p><strong>Solo project</strong><br>
+        🔗 <a href="https://github.com/BaptisteSamoyault/sub-n-mines">GitHub Repository</a><br>
+        A Minesweeper-inspired game where a submarine avoids invisible mines to reach its goal.</p>
+        <img src="Images/Sub n mines screen.png" alt="sub-n-mines">
+      </div>
+    </div>
+
+    <h3>Web Development Projects</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>💻 Discord Clone (JavaScript, CSS)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/dnguye12/Discord-Frontend">Frontend</a> • <a href="https://github.com/dnguye12/Discord-Backend">Backend</a> • <a href="https://discord-backend-tlyr.onrender.com/">Render</a><br>
+        A recreation of Discord’s features, from servers to video calls.</p><br>
+        <img src="Images/WhiteCord.png" alt="Discord">
+      </div>
+
+      <div class="card">
+        <h4>🎬 Binge Buddies (JavaScript, CSS)</h4>
+        <p><strong>Team of 5 people</strong><br>
+        A web app for friends to watch movies together remotely.<br>
+        📄 <a href="Reports/TER_BingeBuddies.pdf">Full Paper</a> • <a href="Reports/Binge%20Buddies.pdf">Presentation</a> • 🎥 <a href="https://www.youtube.com/watch?v=EW28VevIyIQ">Video</a></p><br>
+        <img src="Images/BingeBuddies Screen.png" alt="BingeBuddies">
+      </div>
+    </div>
+
+    <h3>Virtual Reality / Augmented Reality Projects</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>🏹 Bow Project (Unity, VR, C#)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        VR experience where users grab a bow and shoot targets using a Vive Cosmos headset.<br>
+        🎥 <a href="https://youtu.be/ZmPPQAu60NA">Video</a> • <a href="Reports/Adv%20Immersive%20-%20Presentation.pdf">Presentation</a></p><br>
+        <img src="Images/Bow Project jpg.png" alt="bow">
+      </div>
+
+      <div class="card">
+        <h4>🥽 Science Fair Project (Unity, VR, C#)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/RabiiAlaouiLamharzi/final-project-unity">GitHub Repository</a><br>
+        A VR Science Fair featuring interactive exhibits: Volcano, Lamp, and Magnet.</p><br>
+        🎥 <a href="https://youtu.be/qpmFCL09zIs">Video</a><br>
+        <img src="Images/Sciense fair png.png" alt=" Science Fair">
+      </div>
+
+      <div class="card">
+        <h4>🃏 Arcane Rivals (Unity, Vuforia, AR, C#)</h4>
+        <p><strong>Team of 3 people</strong><br>
+        🔗 <a href="https://github.com/barfran/CardGame/tree/main/Game">GitHub Repository</a><br>
+        AR Card Game with animated characters appearing when cards are scanned.<br>
+        <img src="Images/ArcaneRivals.png" alt="Arcane Rivals"><br>
+        🎥 <a href="https://youtu.be/9nzZ5zxSYwo">Video</a></p>
+      </div>
+    </div>
+
+    <h3>Design Projects</h3>
+    <div class="cards">
+      <div class="card">
+        <h4>🤖 Lil'Bot (Blender, Davinci Resolve)</h4>
+        <p><strong>Solo Project</strong><br>
+        Simulated AR companion robot created in Blender and tracked in real space.<br>
+        🎥 <a href="https://youtu.be/FxAa9C57NDQ">Video</a>  • 📄 <a href="Reports/Lil'Bot Final.pdf" >Presentation</a></p><br>
+        <img src="Images/Lil'Bot.png"alt="LilBot">
+      </div>
+
+      <div class="card">
+        <h4>💪 Virtual Coach using MARC</h4>
+        <p><strong>Team of 3 people</strong><br>
+        We created a virtual Coach for skating. After looking through research paper, we managed to create animations and instructions for users to have a nice coaching sessions.
+        We used MARC software, a tool specificaly built to create virtual human.
+        📄 <a href="Reports/4-Baptiste-Ilinca-Abel.pdf">Research Paper</a> • 🎥 <a href="https://youtu.be/slN8KFjPqjI">Video</a></p>
+        <img src="Images/MARC3.png" alt="MARC"><br>
+      </div>
+
+      <div class="card">
+        <h4>🖨️ French Lantern</h4>
+        <p><strong>Solo Project</strong><br>
+        📄 <a href="Reports/The%20art%20of%20fabricating%20tangible%20surfaces.pdf">Report</a><br>
+        3D printed lantern made with red, white, and blue octagonal surfaces.<br>
+        <img src="Images/FrenchLantern.avif" alt="French Lantern"></p>
+      </div>
+
+      <div class="card">
+        <h4>⌚🗺️ Echo Guide</h4>
+        <p><strong>Team of 4 people</strong><br>
+        Navigation aid tool for safer travel.<br>
+        📄 <a href="Reports/EchoGuide.pdf">Presentation</a> • 🎥 <a href="https://youtu.be/TQCjjoRbKsk">Video</a></p><br>
+        <img src="Images/EchoGuide Poster.jpg" alt="EchoGuide">
+      </div>
+
+      <div class="card">
+        <h4>🎨📝 Better Templates</h4>
+        <p><strong>Team of 4 people</strong><br>
+        A system to create better presentations with templates and AI assistance.<br>
+        🎥 <a href="https://youtu.be/v7sTQGZMLYQ">Video</a></p><br>
+        <img src="Images/BetterTemplates.png" alt="BetterTemplates">
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Bachelor of Computer Science</h2>
+    <div class="cards">
+      <div class="card">
+        <h4>🐸 Frogger (Java)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/PierreDerathe/projetFroggerDeratheSamoyault">GitHub Repository</a><br>
+        Our version of the classic game Frogger in Java.</p>
+      </div>
+
+      <div class="card">
+        <h4>🏝️ Forbidden Island (Java)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/Julien-LG/Projet-Ile-Interdite">GitHub Repository</a><br>
+        Java implementation of the board game Forbidden Island.</p>
+      </div>
+
+      <div class="card">
+        <h4>🫧 Wotah (Java)</h4>
+        <p><strong>Team of 4 people</strong><br>
+        🔗 <a href="https://github.com/Julien-LG/Wotah">GitHub Repository</a><br>
+        A Java game inspired by StarCraft and Tropico.<br>
+        📄 <a href="Reports/Wotah_Java_Game.pdf">Slides (FR)</a></p>
+      </div>
+
+      <div class="card">
+        <h4>🗓️ Calendar (HTML, CSS, JavaScript)</h4>
+        <p><strong>Team of 2 people</strong><br>
+        🔗 <a href="https://github.com/Sebastien-Sch/ProgWebProject2023">GitHub Repository</a><br>
+        A university calendar where teachers can add classes and students can view their schedule.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    ✨ Thank you for visiting my portfolio!
+  </footer>
+
+  <script>
     // Scroll-based background transition: soft cream → dark blue
     window.addEventListener('scroll', () => {
       const scrollTop = window.scrollY;
@@ -172,7 +248,9 @@
 
       // Adjust text color dynamically for contrast
       const brightness = (r + g + b) / 3;
-      document.body.style.color = brightness < 120 ? '#f8fafc' : '#0f1724'; document.querySelectorAll('h1, h2, h3, h4, h5').forEach(el => { el.style.color = brightness < 120 ? '#a7f3d0' : '#0b3b91';
+      document.body.style.color = brightness < 120 ? '#f8fafc' : '#0f1724';
+      document.querySelectorAll('h1, h2, h3, h4, h5').forEach(el => {
+        el.style.color = brightness < 120 ? '#a7f3d0' : '#0b3b91';
       });
     });
   </script>
